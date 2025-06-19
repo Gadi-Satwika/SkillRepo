@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+}
+
+.features-page {
+  background-color: #6A89A7;
+  color: white;
+  padding: 20px;
+}
+@media screen and (max-width: 400px) {
+  .features-page {
+    margin-left: 10vh;
+  }
+}
+@media screen and (max-width: 699px) {
+  .features-page {
+    margin-left: 1vh;
+  }
+}
+
+.features-heading {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=features.css.map */

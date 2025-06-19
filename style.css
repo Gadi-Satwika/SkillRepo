@@ -1,0 +1,111 @@
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.each-card {
+  background-color: #6A89A7;
+  height: 29vh;
+  width: 29vh;
+  color: white;
+  text-align: center;
+  margin-left: 10vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.each-card:hover {
+  width: 30vh;
+  height: 30vh;
+  box-shadow: 0px 0px 10px blanchedalmond;
+}
+
+.item-name {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.about-items {
+  font-family: sans-serif;
+}
+
+.knowMoreText {
+  color: white;
+  text-decoration: none;
+}
+.knowMoreText:hover {
+  text-decoration: underline;
+}
+
+.explore-button {
+  background-color: transparent;
+  border-radius: 20px;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid #6A89A7;
+  margin-bottom: 5vh;
+}
+.explore-button:hover {
+  width: 160px;
+  height: 45px;
+  box-shadow: 0px 0px 5px white;
+}
+
+.toggleMode {
+  background-size: cover;
+}
+
+@media screen and (max-width: 400px) {
+  .each-card {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .each-card {
+    height: 45vh;
+    width: 45vh;
+  }
+  .each-card:hover {
+    width: 42vh;
+    height: 42vh;
+    box-shadow: 0px 0px 10px blanchedalmond;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1429px) {
+  .each-card {
+    height: 38vh;
+    width: 38vh;
+  }
+  .each-card:hover {
+    width: 34vh;
+    height: 34vh;
+    box-shadow: 0px 0px 10px blanchedalmond;
+  }
+}
+@media screen and (min-width: 1430px) and (max-width: 1999px) {
+  .each-card {
+    height: 37vh;
+    width: 37vh;
+  }
+  .each-card:hover {
+    width: 34vh;
+    height: 34vh;
+    box-shadow: 0px 0px 10px blanchedalmond;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .each-card {
+    height: 22vh;
+    width: 28vh;
+  }
+  .each-card:hover {
+    width: 25vh;
+    height: 20vh;
+    box-shadow: 0px 0px 10px blanchedalmond;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

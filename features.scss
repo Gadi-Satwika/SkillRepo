@@ -1,0 +1,27 @@
+// Variables
+$bg-color: #6A89A7;
+$text-color: white;
+
+// Base Styles
+body {
+  margin: 0px;
+}
+
+.features-page {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 20px;
+
+  // Responsive Margins
+  @media screen and (max-width: 400px) {
+    margin-left: 10vh;
+  }
+
+  @media screen and (max-width: 699px) {
+    margin-left: 1vh;
+  }
+}
+
+.features-heading {
+  margin-top: 20px;
+}

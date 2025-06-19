@@ -1,0 +1,29 @@
+// Variables (reuse these if not already in your file)
+$bg-color: #6A89A7;
+$text-color: white;
+$image-size: 50vh;
+
+// Base Styles
+body {
+  margin: 0px;
+}
+
+.contactUs {
+  padding: 20px;
+  color: $text-color;
+  background-color: $bg-color;
+}
+
+.features-heading {
+  margin-top: 20px;
+}
+
+.sectionAboutUs {
+  display: flex;
+  justify-content: space-around;
+
+  .aboutUsImage {
+    width: $image-size;
+    height: $image-size;
+  }
+}
