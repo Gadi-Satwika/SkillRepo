@@ -1,52 +1,84 @@
-# SkillRepo
+# SkillRepo 🎯
 
-**SkillRepo Explorer** is a fully responsive front-end web application that allows users to search and explore GitHub repositories based on specific tech skills. Built as part of my internship at **Cognifyz Technologies**, the project integrates real-time data from the GitHub API, provides bookmarking capabilities, and showcases clean design using Bootstrap.
-
----
-
-## 📁 Project Structure
-
-The project includes multiple pages, each serving a specific purpose:
-
-- `index.html` – Home page with skill search form and overview  
-- `skillrepo.html` – Displays fetched repositories based on user skill input  
-- `features.html` – Highlights key features of the project  
-- `contactus.html` – Contact form with client-side validation (EmailJS integration optional)  
-- `aboutus.html` – About the project and developer's journey  
-- `form_page.html` – Dedicated form styling and validation task page  
+SkillRepo is a responsive multi-page front-end web application built using **HTML**, **CSS**, **JavaScript**, and enhanced with **Sass (SCSS)** in the final task. It showcases a variety of UI features like pagination, bookmarking, responsive layouts, interactive buttons, and API integration — demonstrating my learning journey and growing expertise in modern front-end development.
 
 ---
 
-## ✨ Features
+## 📁 Pages Included
 
-- 🔍 **Skill-based GitHub Repo Search** using GitHub API  
-- 🔖 **Bookmarking** functionality to save and revisit favorite repositories  
-- 📄 **Pagination** for browsing results across multiple pages  
-- 🎨 **Bootstrap Integration** for responsive, consistent design  
-- ✅ **Form Validation** using JavaScript for better user experience  
-- 💬 **Contact Form** with real-time feedback and error handling  
-- 📱 Fully **Responsive Layout** across devices  
+- `index.html` – Home Page  
+- `features.html` – Features List  
+- `aboutus.html` – About the Platform  
+- `contactus.html` – Contact Form  
+- `form.html` – User Input Form  
+- `skillrepo.html` – Bookmarkable Repositories
 
 ---
 
-## 🔧 Technologies Used
+## ✅ Features Implemented
 
-- HTML5  
-- CSS3  
+### ✅ Task 1: Project Setup & Structure  
+- Created a clean HTML structure with reusable elements.
+
+### ✅ Task 2: Basic Styling with CSS  
+- Designed the layout using CSS for multiple pages.
+
+### ✅ Task 3: Responsive Page  
+- Making the page response to different devices.
+
+### ✅ Task 4: More JavaScript Interactions  
+- Enhanced user interactivity and logic on buttons and elements.
+
+### ✅ Task 5: API Integration  
+- Fetched dynamic data using public API and displayed it.
+
+### ✅ Task 6: Form Implementation  
+- Making a form, that allows users to send a message.
+
+### ✅ Task 7: Bootstrap  
+- Implementing the framework bootstrap into the code.
+
+### ✅ Task 8: CSS Preprocessing with Sass  
+- Used Sass to write maintainable CSS with:
+  - Variables
+  - Nesting
+  - Media queries
+- Compiled SCSS to CSS and applied it across all pages.
+
+---
+
+## 🔗 Live Demo
+
+👉 
+
+---
+
+## 📦 GitHub Repository
+
+👉 
+
+---
+
+## 🚀 Technologies Used
+
+- HTML  
+- CSS  
+- Sass (SCSS)  
 - JavaScript  
-- Bootstrap 5  
-- GitHub REST API  
-- (Optional) EmailJS for contact form messaging
+- Git & GitHub  
+- GitHub Pages for deployment
 
 ---
 
-## 🚀 Getting Started
+## 📩 Contact
 
-Check It Here:
+Feel free to reach out via:
 
+- 📧 Email: satwikagadi2005@gmail.com  
+- 💼 LinkedIn: 
 
-📬 Contact
-If you’d like to connect, collaborate, or share feedback:
+---
 
-✉️ Email: gadisatwika137@gmail.com
-💼 LinkedIn: Gadi Satwika
+## 🙌 Acknowledgments
+
+Thanks to the SkillRepo project series for providing clear objectives and helping me solidify front-end concepts through hands-on tasks.
